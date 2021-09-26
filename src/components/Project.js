@@ -3,6 +3,18 @@ import Cards from "./Cards";
 
 function Project(){
     const message = 'Projects'
+    
+    const projectArray = [
+    
+      {
+        appLink:"hello",
+        title:"test",
+        gitLink:"holing",
+        image:"test",
+        Alttxt:"skjfd"
+      },
+    ]
+
 
     return(
     <div className="container">
@@ -11,5 +23,7 @@ function Project(){
     </div>
     )
 }
+
+
 
 export default Project;
